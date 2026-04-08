@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Codeforces Dark Pink
+// @name Codeforces Dark Pink TEST
 // @namespace    http://tampermonkey.net/
 // @version      4.0
 // @description  Tema oscuro rosa — sin blancos
