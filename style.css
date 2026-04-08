@@ -4,6 +4,9 @@
   border-color: #2e0025 !important;
   outline-color: #7a154b !important;
 }
+* {
+  font-family: "Poppins", sans-serif !important;
+}
 
 html,
 body,
