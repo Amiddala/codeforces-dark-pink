@@ -36,5 +36,5 @@ Tampermonkey will open a window asking you to confirm the installation — just 
 
 ## Inspiration
 
-Inspired by the Codeforces dark theme by Gaurang Tandon.  
+Inspired by the Codeforces dark theme by [Gaurang Tandon](https://github.com/GaurangTandon/codeforces-darktheme). 
 I kept the original idea and styling approach, but customized the colors into a pink theme to give it a softer and more personal touch.
