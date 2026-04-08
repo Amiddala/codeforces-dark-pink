@@ -1,21 +1,20 @@
 // ==UserScript==
 // @name Codeforces Dark Pink TEST
 // @namespace    http://tampermonkey.net/
-// @version      4.0
+// @version      4.1
 // @description  Tema oscuro rosa — sin blancos
 // @author       Candy Camila uwu
 // @match        https://codeforces.com/*
 // @match        http://codeforces.com/*
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
-// @run-at       document-start
-// @resource     darkPinkCSS  https://raw.githubusercontent.com/Amiddala/codeforces-dark-pink/main/style.css
+// @run-at       document-end
+// @resource     darkPinkCSS  https://raw.githubusercontent.com/Amiddala/codeforces-dark-pink/main/styles.css
 // ==/UserScript==
 
 (function () {
   "use strict";
 
-  // Inyecta el CSS desde el archivo separado
   GM_addStyle(GM_getResourceText("darkPinkCSS"));
 
   function overrideStyle(elm, prop, value) {
