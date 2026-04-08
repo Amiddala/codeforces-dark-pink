@@ -4,9 +4,6 @@
   border-color: #2e0025 !important;
   outline-color: #7a154b !important;
 }
-body {
-  font-family: "Poppins", sans-serif !important;
-}
 
 html,
 body,
@@ -21,14 +18,21 @@ body,
   color: #f0dce8 !important;
 }
 
-body,
-#pageContent,
-.roundbox,
-.datatable,
-.sidebar,
-.menu-box,
-.second-level-menu-list {
-  background-color: #0d0010 !important;
+div,
+section,
+article,
+aside,
+nav,
+header,
+footer,
+main,
+table,
+tbody,
+thead,
+tr,
+td,
+th {
+  background-color: transparent !important;
 }
 
 #header,
