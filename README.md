@@ -4,6 +4,11 @@ A dark pink theme for Codeforces. [**Click to install**](https://github.com/Amid
 
 > ✨ Made with love by **Candy Camila uwu**
 
+<p align="center">
+  <img src="imgs/demo.png" width="600"/>
+</p>
+
+
 ---
 
 ## Download instructions
