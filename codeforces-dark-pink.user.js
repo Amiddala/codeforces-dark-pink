@@ -8,7 +8,7 @@
 // @match        http://codeforces.com/*
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
-// @run-at       document-end
+// @run-at       document-start
 // @resource     darkPinkCSS  https://raw.githubusercontent.com/Amiddala/codeforces-dark-pink/main/styles.css
 // ==/UserScript==
 
