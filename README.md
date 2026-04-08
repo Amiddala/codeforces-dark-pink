@@ -2,7 +2,6 @@
 
 A dark pink theme for Codeforces. [**Click to install**](https://github.com/Amiddala/codeforces-dark-pink/raw/main/codeforces-dark-pink.user.js) (requires a userscript manager)
 
-> ✨ Made with love by **Candy Camila uwu**
 
 <p align="center">
   <img src="imgs/demo.png" width="600"/>
@@ -35,12 +34,7 @@ Tampermonkey will open a window asking you to confirm the installation — just 
 
 ---
 
-## External dependencies
+## Inspiration
 
-1. [Ace editor's monokai.css](https://github.com/ajaxorg/ace/blob/master/lib/ace/theme/monokai.css) — for dark syntax highlighting in the submission code editor ([BSD license](https://github.com/ajaxorg/ace/blob/master/LICENSE)).
-
----
-
-## License
-
-MIT License — feel free to fork and customize!
+Inspired by the Codeforces dark theme by Gaurang Tandon.  
+I kept the original idea and styling approach, but customized the colors into a pink theme to give it a softer and more personal touch.
