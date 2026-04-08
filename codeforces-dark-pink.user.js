@@ -9,7 +9,7 @@
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
 // @run-at       document-start
-// @resource     darkPinkCSS  https://raw.githubusercontent.com/TU-USUARIO/codeforces-dark-pink/main/styles.css
+// @resource     darkPinkCSS  https://raw.githubusercontent.com/Amiddala/codeforces-dark-pink/main/styles.css
 // ==/UserScript==
 
 (function () {
