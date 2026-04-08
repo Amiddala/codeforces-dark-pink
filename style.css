@@ -1,0 +1,434 @@
+*,
+*::before,
+*::after {
+  border-color: #2e0025 !important;
+  outline-color: #b42b74 !important;
+}
+
+html,
+body,
+#body,
+#pageContent,
+.wrap,
+#wrap,
+.content-with-sidebar,
+.platform-content,
+#main-content {
+  background: #0d0010 !important;
+  color: #f0dce8 !important;
+}
+
+div,
+section,
+article,
+aside,
+nav,
+header,
+footer,
+main,
+table,
+tbody,
+thead,
+tr,
+td,
+th {
+  background-color: transparent !important;
+}
+
+#header,
+#pageHeader,
+.lang-chooser-holder,
+#header-container,
+.header-wrap {
+  background: #130012 !important;
+  border-bottom: 2px solid #5a0038 !important;
+}
+
+#logo a {
+  filter: hue-rotate(170deg) saturate(2) brightness(0.85) !important;
+}
+
+#menu,
+#menu ul,
+#menu li,
+.second-level-menu,
+.second-level-menu-list {
+  background: #130012 !important;
+}
+#menu ul li a,
+.second-level-menu-list li a {
+  color: #f48fb1 !important;
+}
+#menu ul li:hover,
+#menu ul li.active,
+.second-level-menu-list li:hover {
+  background: #3a0030 !important;
+  border-radius: 6px !important;
+}
+
+.problem-statement img,
+.problem-statement .tex-graphics {
+  filter: invert(1) hue-rotate(180deg) brightness(0.85) !important;
+  border-radius: 4px !important;
+}
+
+.sample-tests .title,
+.input .title,
+.output .title,
+.section-title,
+h2,
+h3 {
+  color: #ff79c6 !important;
+}
+
+/* Título principal del problema (A. Team) */
+.title,
+.problem-statement .title {
+  color: #ff79c6 !important;
+}
+
+.input-output-copier,
+.copy-to-clipboard-text {
+  color: #f48fb1 !important;
+}
+/* Título del problema y límites */
+.problem-statement .header .title {
+  color: #ffffff !important;
+}
+.problem-statement .header .time-limit,
+.problem-statement .header .memory-limit,
+.problem-statement .header .input-file,
+.problem-statement .header .output-file {
+  color: #f0dce8 !important;
+}
+.problem-statement .header .property-title {
+  color: #ff79c6 !important;
+}
+
+.problem-statement table,
+.problem-statement tbody tr,
+.problem-statement tbody tr:nth-child(odd),
+.problem-statement tbody tr:nth-child(even),
+.problem-statement .tex-tabular tr,
+.problem-statement .tex-tabular td {
+  background: transparent !important;
+  color: #f0dce8 !important;
+}
+
+.problem-statement .section-title {
+  color: #ff79c6 !important;
+  font-weight: bold !important;
+}
+
+.second-level-menu-list {
+  border-bottom: 2px solid #5a0038 !important;
+}
+.second-level-menu-list li.selected a,
+.second-level-menu-list li.chosen a {
+  background: #3a0030 !important;
+  color: #ff79c6 !important;
+  border-bottom: 2px solid #ff79c6 !important;
+}
+
+a,
+a:visited {
+  color: #f48fb1 !important;
+}
+a:hover {
+  color: #ff79c6 !important;
+  text-decoration: underline wavy #880e4f !important;
+}
+
+.roundbox,
+.sidebox,
+.infobox,
+.contest-state-phase-title,
+.datatable,
+.datatable-content {
+  background: #110010 !important;
+  border: 1.5px solid #3a0030 !important;
+  border-radius: 10px !important;
+}
+
+.roundbox-title,
+.titled,
+.caption.titled,
+.roundbox .caption {
+  background: #2a001f !important;
+  color: #ff79c6 !important;
+  border-bottom: 1px solid #5a0038 !important;
+  border-radius: 8px 8px 0 0 !important;
+}
+
+.roundbox-lt,
+.roundbox-rt,
+.roundbox-lb,
+.roundbox-rb {
+  background: #2a001f !important;
+}
+
+.problems,
+.problems table,
+table.problems {
+  background: #110010 !important;
+  border: 1.5px solid #3a0030 !important;
+  border-radius: 10px !important;
+}
+
+.problems tr,
+.datatable tr,
+table.problems tr {
+  background: transparent !important;
+}
+
+.problems tr:nth-child(odd),
+.datatable tr:nth-child(odd) {
+  background: #110010 !important;
+}
+.problems tr:nth-child(even),
+.datatable tr:nth-child(even) {
+  background: #170015 !important;
+}
+.problems tr:hover,
+.datatable tr:hover {
+  background: #3a0030 !important;
+}
+
+.problems td,
+.problems th,
+.datatable td,
+.datatable th {
+  color: #f0dce8 !important;
+  border-color: #2e0025 !important;
+}
+.problems thead tr,
+.datatable thead tr,
+.problems tr.first-row,
+.datatable tr.first-row {
+  background: #2a001f !important;
+}
+.problems th,
+.datatable th {
+  color: #ff79c6 !important;
+  border-bottom: 2px solid #880e4f !important;
+}
+
+.tag-box,
+.notice,
+a.tag-box,
+.tags .tag-box {
+  background: #200018 !important;
+  border: 1px solid #880e4f !important;
+  color: #f48fb1 !important;
+  border-radius: 20px !important;
+}
+.tag-box:hover {
+  background: #3a0030 !important;
+  color: #ff79c6 !important;
+}
+
+.right-sidebar,
+#sidebar,
+.sidebar,
+[class*="sidebar"] {
+  background: #0d0010 !important;
+}
+
+.sidebox .caption,
+.sidebox .roundbox-title {
+  background: #2a001f !important;
+  color: #ff79c6 !important;
+}
+
+table {
+  background: transparent !important;
+}
+thead tr,
+tr.header-row {
+  background: #2a001f !important;
+}
+tbody tr:nth-child(odd) {
+  background: #110010 !important;
+}
+tbody tr:nth-child(even) {
+  background: #170015 !important;
+}
+tbody tr:hover {
+  background: #3a0030 !important;
+}
+td,
+th {
+  color: #f0dce8 !important;
+  border-color: #2e0025 !important;
+}
+th {
+  color: #ff79c6 !important;
+}
+
+.top-rated-table td,
+.top-rated-table th {
+  background: transparent !important;
+}
+
+input,
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="email"],
+textarea,
+select {
+  background: #1a0018 !important;
+  color: #f0dce8 !important;
+  border: 1px solid #880e4f !important;
+  border-radius: 8px !important;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #c984a8 !important;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #ff79c6 !important;
+  box-shadow: 0 0 0 2px #880e4f44 !important;
+}
+
+input[type="submit"],
+.submit,
+button,
+.btn,
+[class*="btn-"] {
+  background: #880e4f !important;
+  color: #ffe0f0 !important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding: 6px 18px !important;
+  cursor: pointer !important;
+  font-weight: 500 !important;
+}
+input[type="submit"]:hover,
+button:hover,
+.btn:hover {
+  background: #c2185b !important;
+}
+
+.pay-attention,
+.alert,
+[class*="alert-"] {
+  background: #1a0018 !important;
+  border: 1px solid #880e4f !important;
+  color: #f0dce8 !important;
+  border-radius: 8px !important;
+}
+.verdict-accepted {
+  color: #a5d6a7 !important;
+}
+.verdict-rejected,
+.verdict-wrong-answer {
+  color: #ff80ab !important;
+}
+
+.user-legendary {
+  color: #ff79c6 !important;
+  text-shadow: 0 0 8px #ff79c688 !important;
+}
+.user-red {
+  color: #ff80ab !important;
+}
+.user-orange {
+  color: #ffb86c !important;
+}
+.user-violet {
+  color: #bd93f9 !important;
+}
+.user-blue {
+  color: #80d8ff !important;
+}
+.user-cyan {
+  color: #80deea !important;
+}
+.user-green {
+  color: #a5d6a7 !important;
+}
+.user-gray {
+  color: #b0bec5 !important;
+}
+
+.ttypography p,
+.ttypography li,
+.ttypography span,
+.post-content,
+.content p,
+.blog-entry {
+  color: #ecdce6 !important;
+}
+
+.ttypography pre,
+pre,
+code,
+.sample-tests pre {
+  background: #1a0018 !important;
+  border: 1px solid #3a0030 !important;
+  color: #f8c8e4 !important;
+  border-radius: 6px !important;
+}
+
+.contest-state-regular,
+.contest-state-before,
+.contest-state-running {
+  background: #1a0018 !important;
+  color: #f48fb1 !important;
+}
+
+tr.highlighted-row td {
+  background: #3a0030 !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0010;
+}
+::-webkit-scrollbar-thumb {
+  background: #880e4f;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c2185b;
+}
+
+::selection {
+  background: #880e4f !important;
+  color: #ffe0f0 !important;
+}
+
+.pagination span,
+.pagination a {
+  background: #1a0018 !important;
+  color: #f48fb1 !important;
+  border: 1px solid #3a0030 !important;
+  border-radius: 6px !important;
+}
+.pagination .current {
+  background: #880e4f !important;
+  color: #ffe0f0 !important;
+}
+
+.popup,
+.tooltip,
+[class*="popup"],
+.dropdown-menu,
+[class*="dropdown"] {
+  background: #1a0018 !important;
+  border: 1px solid #880e4f !important;
+  color: #f0dce8 !important;
+  border-radius: 8px !important;
+}
+
+.avatar img,
+.usericon img {
+  border: 2px solid #880e4f !important;
+  border-radius: 50% !important;
+}
